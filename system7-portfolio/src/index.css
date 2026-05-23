@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* ============================================================
+   System 7 theme tokens
+   ============================================================ */
+:root {
+  --s7-gray:        #9b9b9b;
+  --s7-gray-light:  #a6a6a6;
+  --s7-gray-dark:   #8f8f8f;
+  --s7-white:       #ffffff;
+  --s7-black:       #000000;
+  --s7-shadow:      rgba(0, 0, 0, 0.4);
+  --s7-menubar-h:   20px;
+}
+
+* { -webkit-font-smoothing: none; box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'ChicagoFLF', 'Geneva', 'Chicago', -apple-system, system-ui, sans-serif;
+}
+
+/* Pixel-style focus rings off; we draw our own borders */
+button { font-family: inherit; }
